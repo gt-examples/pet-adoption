@@ -1,4 +1,33 @@
 {
+  "06a1e80290d65b2b": "Découvrez notre mission, notre processus d’adoption et comment vous pouvez aider des animaux à trouver un foyer aimant.",
+  "13f5cbc6408018a2": [
+    {
+      "c": "Heures d'ouverture du refuge",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        {
+          "c": "Du lundi au vendredi : 10 h 00 à 18 h 00",
+          "i": 3,
+          "t": "p"
+        },
+        {
+          "c": "Samedi et dimanche : 10 h 00 à 16 h 00",
+          "i": 4,
+          "t": "p"
+        },
+        {
+          "c": "Fermé les jours fériés. Les visites sans rendez-vous sont les bienvenues, mais un rendez-vous est recommandé pour les séances de rencontre.",
+          "i": 5,
+          "t": "p"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    }
+  ],
   "14f84ca4f7ec20e4": [
     {
       "i": 1,
@@ -6,6 +35,44 @@
       "v": "n"
     },
     " an"
+  ],
+  "159d6f43597745aa": [
+    {
+      "c": "Processus d'adoption",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        {
+          "c": "Parcourez nos animaux disponibles et trouvez celui qui correspond à votre mode de vie.",
+          "i": 3,
+          "t": "li"
+        },
+        {
+          "c": "Soumettez un dossier d'adoption avec des informations sur votre domicile et votre expérience.",
+          "i": 4,
+          "t": "li"
+        },
+        {
+          "c": "Rencontrez votre potentiel nouveau compagnon au refuge lors d'une visite encadrée.",
+          "i": 5,
+          "t": "li"
+        },
+        {
+          "c": "Signez le contrat d'adoption et réglez les frais d'adoption, qui couvrent les vaccinations, la stérilisation et la pose d'une puce électronique.",
+          "i": 6,
+          "t": "li"
+        },
+        {
+          "c": "Accueillez votre nouveau membre de la famille chez vous grâce à nos ressources de soutien post-adoption.",
+          "i": 7,
+          "t": "li"
+        }
+      ],
+      "i": 2,
+      "t": "ol"
+    }
   ],
   "2fe7319b7a1fd52e": [
     {
@@ -17,8 +84,72 @@
   ],
   "3ab16d9d1ef6f7e8": "Parcourez les animaux disponibles à l’adoption avec des informations sur la race, l’âge, les frais d’adoption et les dates de disponibilité. Internationalisé avec General Translation.",
   "45f6a3b008b2d358": "Centre d'adoption d'animaux",
+  "68a99738efa4cf51": "Années de service à la communauté",
+  "6933d2c648362c4a": "Conditions d'adoption",
+  "6da95dec3e7a4e8c": "Poids",
+  "7b8a8923e4f216a1": "Sexe",
+  "7be0c393d34092d8": "À propos",
+  "7d402cb73fcdf41c": [
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    },
+    " lbs"
+  ],
+  "81b2b07f082dede1": {
+    "d": {
+      "b": {
+        "active": "Actif",
+        "affectionate": "Affectueux",
+        "calm": "Calme",
+        "confident": "Confiant",
+        "curious": "Curieux",
+        "energetic": "Énergique",
+        "friendly": "Amical",
+        "gentle": "Douce",
+        "intelligent": "Intelligent",
+        "loyal": "Fidèle",
+        "outgoing": "Sortant",
+        "patient": "Patient",
+        "playful": "Enjoué",
+        "protective": "Protecteur",
+        "quiet": "Silencieux",
+        "sociable": "Sociable",
+        "social": "Social",
+        "trainable": "Entraînable",
+        "vocal": "Vocal"
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
+  "85f4b8366687c779": [
+    {
+      "c": "À propos de notre refuge",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Nous sommes une association à but non lucratif dédiée au sauvetage d'animaux et à leur placement dans des foyers aimants. Chaque animal confié à nos soins bénéficie d'un suivi vétérinaire, d'une socialisation et d'une attention bienveillante, jusqu'à ce que la famille idéale se présente.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
   "87594c45b64b92a3": "Âge",
   "87fca614df77cc4e": "Frais d'adoption",
+  "88446fdab91a8ee6": {
+    "d": {
+      "b": {
+        "female": "Féminin",
+        "male": "Masculin"
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
   "8cf5da1360b31b67": [
     {
       "c": "Trouvez votre nouveau compagnon",
@@ -31,6 +162,20 @@
       "t": "p"
     }
   ],
+  "9402349b1b04b678": "Bénévoles actifs",
+  "97d971f0fb2f0dc4": [
+    {
+      "c": "Notre mission",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": "Nous croyons que chaque animal mérite un foyer sûr et aimant. Notre mission est de secourir des animaux en situation difficile, de leur fournir des soins médicaux et une réhabilitation, et de les mettre en relation avec des adoptants responsables qui les chériront toute leur vie.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "9ce9cd808fd91670": "Retour à tous les animaux",
   "9d761ca7cb1a0d6a": {
     "d": {
       "b": {
@@ -55,11 +200,16 @@
     "t": "Branch"
   },
   "a4f4d02afd938a3e": {
-    "c": "Voici un exemple d'application construite avec General Translation pour illustrer les fonctionnalités d'internationalisation, notamment le formatage des nombres, des devises et des dates selon la locale.",
+    "c": "Il s'agit d'un exemple d'application développée avec General Translation pour illustrer les fonctionnalités d'internationalisation, notamment le formatage des nombres, des devises et des dates selon la locale.",
     "i": 1,
     "t": "p"
   },
+  "b0cbc9acb4698e63": "Couleur",
   "b51a466fd3ff957a": "Disponible à partir de",
+  "b90e87f4b7125237": "Détails",
+  "cb0f27a284385422": "Informations de santé",
+  "ceeab41e766ea81c": "Animaux",
+  "cf64dec161d1c523": "Animaux adoptés cette année",
   "d02d6aaa6fd21e6a": [
     {
       "i": 1,
@@ -69,6 +219,46 @@
     " animaux disponibles actuellement"
   ],
   "d23f5c02a37b4e65": "Centre d’adoption d’animaux | General Translation",
+  "d3cac2b8ca994363": [
+    {
+      "c": "Comment vous pouvez aider",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        {
+          "c": "Même si vous ne pouvez pas adopter, il existe de nombreuses façons de soutenir notre travail. Vous pouvez faire du bénévolat au refuge, accueillir temporairement un animal, faire des dons de fournitures ou aider à faire connaître les animaux qui cherchent un foyer.",
+          "i": 3,
+          "t": "p"
+        },
+        {
+          "c": "Chaque contribution, aussi petite soit-elle, fait une différence dans la vie des animaux dont nous prenons soin.",
+          "i": 4,
+          "t": "p"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    }
+  ],
+  "d819728f3da4397b": {
+    "d": {
+      "b": {
+        "Black-and-tan": "Black and tan",
+        "Brown-tabby": "Tabby brun",
+        "Chocolate": "Chocolat",
+        "Golden": "Golden",
+        "Gray-tabby": "Tabby gris",
+        "Seal-point": "Seal point"
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
+  "ded282ca64a528d9": "À propos de notre refuge | Centre d’adoption d’animaux",
+  "e7103761289d3c41": "Tempérament",
   "eb03d99a0a5fe188": [
     {
       "i": 1,

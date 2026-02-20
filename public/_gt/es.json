@@ -1,4 +1,33 @@
 {
+  "06a1e80290d65b2b": "Conoce nuestra misión, el proceso de adopción y cómo puedes ayudarnos a darle a una mascota un hogar lleno de cariño.",
+  "13f5cbc6408018a2": [
+    {
+      "c": "Horario del Refugio",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        {
+          "c": "Lunes a viernes: 10:00 AM a 6:00 PM",
+          "i": 3,
+          "t": "p"
+        },
+        {
+          "c": "Sábado y domingo: 10:00 AM a 4:00 PM",
+          "i": 4,
+          "t": "p"
+        },
+        {
+          "c": "Cerrado en días festivos importantes. Se aceptan visitas sin cita previa, pero se recomienda hacer una cita para las sesiones de presentación.",
+          "i": 5,
+          "t": "p"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    }
+  ],
   "14f84ca4f7ec20e4": [
     {
       "i": 1,
@@ -6,6 +35,44 @@
       "v": "n"
     },
     " año"
+  ],
+  "159d6f43597745aa": [
+    {
+      "c": "Proceso de Adopción",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        {
+          "c": "Explora nuestras mascotas disponibles y encuentra la que mejor se adapte a tu estilo de vida.",
+          "i": 3,
+          "t": "li"
+        },
+        {
+          "c": "Envía una solicitud de adopción con información sobre tu hogar y experiencia.",
+          "i": 4,
+          "t": "li"
+        },
+        {
+          "c": "Conoce a tu posible nuevo compañero en el refugio durante una visita supervisada.",
+          "i": 5,
+          "t": "li"
+        },
+        {
+          "c": "Completa el acuerdo de adopción y paga la tarifa correspondiente, que cubre vacunas, cirugía de esterilización y microchip.",
+          "i": 6,
+          "t": "li"
+        },
+        {
+          "c": "Dale la bienvenida a tu nuevo miembro de la familia con nuestros recursos de apoyo post-adopción.",
+          "i": 7,
+          "t": "li"
+        }
+      ],
+      "i": 2,
+      "t": "ol"
+    }
   ],
   "2fe7319b7a1fd52e": [
     {
@@ -17,11 +84,75 @@
   ],
   "3ab16d9d1ef6f7e8": "Explora mascotas disponibles para adopción, con información sobre raza, edad, tarifas de adopción y fechas de disponibilidad. Internacionalizado con General Translation.",
   "45f6a3b008b2d358": "Centro de Adopción de Mascotas",
+  "68a99738efa4cf51": "Años al servicio de la comunidad",
+  "6933d2c648362c4a": "Requisitos de adopción",
+  "6da95dec3e7a4e8c": "Peso",
+  "7b8a8923e4f216a1": "Sexo",
+  "7be0c393d34092d8": "Acerca de",
+  "7d402cb73fcdf41c": [
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    },
+    " lbs"
+  ],
+  "81b2b07f082dede1": {
+    "d": {
+      "b": {
+        "active": "Activo",
+        "affectionate": "Afectuoso",
+        "calm": "Tranquilo",
+        "confident": "Seguro",
+        "curious": "Curioso",
+        "energetic": "Enérgico",
+        "friendly": "Amigable",
+        "gentle": "Suave",
+        "intelligent": "Inteligente",
+        "loyal": "Leal",
+        "outgoing": "Saliente",
+        "patient": "Paciente",
+        "playful": "Juguetón",
+        "protective": "Protector",
+        "quiet": "Silencioso",
+        "sociable": "Sociable",
+        "social": "Social",
+        "trainable": "Entrenable",
+        "vocal": "Vocal"
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
+  "85f4b8366687c779": [
+    {
+      "c": "Sobre Nuestro Refugio",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Somos una organización sin fines de lucro dedicada al rescate de animales y a encontrar hogares amorosos para mascotas abandonadas o entregadas por sus dueños. Cada animal bajo nuestro cuidado recibe atención veterinaria, socialización y paciencia hasta que llegue la familia adecuada.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
   "87594c45b64b92a3": "Edad",
   "87fca614df77cc4e": "Tarifa de adopción",
+  "88446fdab91a8ee6": {
+    "d": {
+      "b": {
+        "female": "Femenino",
+        "male": "Masculino"
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
   "8cf5da1360b31b67": [
     {
-      "c": "Encuentra a tu nueva mascota",
+      "c": "Encuentra a tu nuevo compañero",
       "i": 1,
       "t": "h2"
     },
@@ -31,6 +162,20 @@
       "t": "p"
     }
   ],
+  "9402349b1b04b678": "Voluntarios activos",
+  "97d971f0fb2f0dc4": [
+    {
+      "c": "Nuestra Misión",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": "Creemos que cada mascota merece un hogar seguro y amoroso. Nuestra misión es rescatar animales de situaciones difíciles, brindarles atención médica y rehabilitación, y conectarlos con adoptantes responsables que los quieran para toda la vida.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "9ce9cd808fd91670": "Volver a todas las mascotas",
   "9d761ca7cb1a0d6a": {
     "d": {
       "b": {
@@ -59,7 +204,12 @@
     "i": 1,
     "t": "p"
   },
+  "b0cbc9acb4698e63": "Color",
   "b51a466fd3ff957a": "Disponible desde",
+  "b90e87f4b7125237": "Detalles",
+  "cb0f27a284385422": "Información de salud",
+  "ceeab41e766ea81c": "Mascotas",
+  "cf64dec161d1c523": "Mascotas adoptadas este año",
   "d02d6aaa6fd21e6a": [
     {
       "i": 1,
@@ -69,6 +219,46 @@
     " mascotas disponibles actualmente"
   ],
   "d23f5c02a37b4e65": "Centro de adopción de mascotas | General Translation",
+  "d3cac2b8ca994363": [
+    {
+      "c": "Cómo Puedes Ayudar",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        {
+          "c": "Aunque no puedas adoptar, hay muchas formas de apoyar nuestra labor. Puedes ser voluntario en el refugio, acoger temporalmente a una mascota, donar suministros o ayudar a difundir la situación de los animales que necesitan un hogar.",
+          "i": 3,
+          "t": "p"
+        },
+        {
+          "c": "Cada contribución, por pequeña que sea, marca una diferencia en la vida de los animales que cuidamos.",
+          "i": 4,
+          "t": "p"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    }
+  ],
+  "d819728f3da4397b": {
+    "d": {
+      "b": {
+        "Black-and-tan": "Negro y canela",
+        "Brown-tabby": "Tabby marrón",
+        "Chocolate": "Chocolate",
+        "Golden": "Golden",
+        "Gray-tabby": "Gato atigrado gris",
+        "Seal-point": "Seal point"
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
+  "ded282ca64a528d9": "Sobre nuestro refugio | Centro de adopción de mascotas",
+  "e7103761289d3c41": "Temperamento",
   "eb03d99a0a5fe188": [
     {
       "i": 1,
