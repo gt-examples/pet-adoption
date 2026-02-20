@@ -1,0 +1,80 @@
+{
+  "14f84ca4f7ec20e4": [
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    },
+    " año"
+  ],
+  "2fe7319b7a1fd52e": [
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    },
+    " años"
+  ],
+  "3ab16d9d1ef6f7e8": "Explora mascotas disponibles para adopción, con información sobre raza, edad, tarifas de adopción y fechas de disponibilidad. Internacionalizado con General Translation.",
+  "45f6a3b008b2d358": "Centro de Adopción de Mascotas",
+  "87594c45b64b92a3": "Edad",
+  "87fca614df77cc4e": "Tarifa de adopción",
+  "8cf5da1360b31b67": [
+    {
+      "c": "Encuentra a tu nueva mascota",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Explora nuestras mascotas en adopción a continuación. Cada ficha incluye detalles de raza, edad, tarifa de adopción y fecha de disponibilidad, todo formateado según tu configuración regional.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "9d761ca7cb1a0d6a": {
+    "d": {
+      "b": {
+        "adopted": "Adoptado",
+        "available": "Disponible",
+        "pending": "Pendiente"
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
+  "a107b1639e0cdb3f": {
+    "d": {
+      "b": {
+        "cat": "Gato",
+        "dog": "Perro"
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
+  "a4f4d02afd938a3e": {
+    "c": "Esta es una aplicación de ejemplo creada con General Translation para demostrar funciones de internacionalización, incluyendo formato de números, divisas y fechas según la configuración regional.",
+    "i": 1,
+    "t": "p"
+  },
+  "b51a466fd3ff957a": "Disponible desde",
+  "d02d6aaa6fd21e6a": [
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    },
+    " mascotas disponibles actualmente"
+  ],
+  "d23f5c02a37b4e65": "Centro de adopción de mascotas | General Translation",
+  "eb03d99a0a5fe188": [
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    },
+    " mascota disponible actualmente"
+  ]
+}

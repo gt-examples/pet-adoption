@@ -1,0 +1,80 @@
+{
+  "14f84ca4f7ec20e4": [
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    },
+    " an"
+  ],
+  "2fe7319b7a1fd52e": [
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    },
+    " ans"
+  ],
+  "3ab16d9d1ef6f7e8": "Parcourez les animaux disponibles à l’adoption avec des informations sur la race, l’âge, les frais d’adoption et les dates de disponibilité. Internationalisé avec General Translation.",
+  "45f6a3b008b2d358": "Centre d'adoption d'animaux",
+  "87594c45b64b92a3": "Âge",
+  "87fca614df77cc4e": "Frais d'adoption",
+  "8cf5da1360b31b67": [
+    {
+      "c": "Trouvez votre nouveau compagnon",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Parcourez nos animaux disponibles à l'adoption ci-dessous. Chaque annonce inclut la race, l'âge, les frais d'adoption et la date de disponibilité — le tout formaté selon votre région.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "9d761ca7cb1a0d6a": {
+    "d": {
+      "b": {
+        "adopted": "Adopté",
+        "available": "Disponible",
+        "pending": "En attente"
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
+  "a107b1639e0cdb3f": {
+    "d": {
+      "b": {
+        "cat": "Chat",
+        "dog": "Chien"
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
+  "a4f4d02afd938a3e": {
+    "c": "Voici un exemple d'application construite avec General Translation pour illustrer les fonctionnalités d'internationalisation, notamment le formatage des nombres, des devises et des dates selon la locale.",
+    "i": 1,
+    "t": "p"
+  },
+  "b51a466fd3ff957a": "Disponible à partir de",
+  "d02d6aaa6fd21e6a": [
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    },
+    " animaux disponibles actuellement"
+  ],
+  "d23f5c02a37b4e65": "Centre d’adoption d’animaux | General Translation",
+  "eb03d99a0a5fe188": [
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    },
+    " animal disponible actuellement"
+  ]
+}
