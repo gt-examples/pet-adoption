@@ -6,10 +6,6 @@ import type { Metadata } from "next";
 import { pets } from "@/data/pets";
 import Header from "@/components/Header";
 
-export function generateStaticParams() {
-  return pets.map((pet) => ({ slug: pet.slug }));
-}
-
 export async function generateMetadata({
   params,
 }: {
