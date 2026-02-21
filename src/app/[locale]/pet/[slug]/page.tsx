@@ -1,4 +1,4 @@
-import { T, Var, Num, Currency, DateTime, Branch, Plural } from "gt-next";
+import { T, Num, Currency, DateTime, Branch, Plural } from "gt-next";
 import { getGT, tx } from "gt-next/server";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -146,10 +146,10 @@ export default async function PetProfilePage({
         <div className="flex items-start justify-between mb-6">
           <div>
             <h2 className="text-2xl font-semibold text-neutral-100 mb-1">
-              <Var>{pet.name}</Var>
+              {pet.name}
             </h2>
             <p className="text-base text-neutral-400">
-              <Var>{pet.breed}</Var>{" "}
+              {pet.breed}{" "}
               <span className="text-neutral-600">·</span>{" "}
               <SpeciesLabel species={pet.species} />
             </p>
@@ -167,19 +167,13 @@ export default async function PetProfilePage({
               <T>Age</T>
             </p>
             <p className="text-lg font-semibold text-neutral-100">
-              <Plural
-                n={pet.age}
-                one={
-                  <T>
-                    <Num>{pet.age}</Num> year
-                  </T>
-                }
-                other={
-                  <T>
-                    <Num>{pet.age}</Num> years
-                  </T>
-                }
-              />
+              <T>
+                <Plural
+                  n={pet.age}
+                  one={<><Num>{pet.age}</Num> year</>}
+                  other={<><Num>{pet.age}</Num> years</>}
+                />
+              </T>
             </p>
           </div>
           <div className="border border-neutral-800 rounded-lg p-4 bg-neutral-900/50 text-center">

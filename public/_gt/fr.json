@@ -1,5 +1,5 @@
 {
-  "06a1e80290d65b2b": "Découvrez notre mission, notre processus d’adoption et comment vous pouvez aider des animaux à trouver un foyer aimant.",
+  "06a1e80290d65b2b": "Découvrez notre mission, notre processus d’adoption et comment vous pouvez aider un animal à trouver un foyer aimant.",
   "13f5cbc6408018a2": [
     {
       "c": "Heures d'ouverture du refuge",
@@ -19,7 +19,7 @@
           "t": "p"
         },
         {
-          "c": "Fermé les jours fériés. Les visites sans rendez-vous sont les bienvenues, mais un rendez-vous est recommandé pour les séances de rencontre.",
+          "c": "Fermé les jours fériés. Les visites sans rendez-vous sont les bienvenues, mais un rendez-vous est recommandé pour les séances de présentation.",
           "i": 5,
           "t": "p"
         }
@@ -27,14 +27,6 @@
       "i": 2,
       "t": "div"
     }
-  ],
-  "14f84ca4f7ec20e4": [
-    {
-      "i": 1,
-      "k": "_gt_n_1",
-      "v": "n"
-    },
-    " an"
   ],
   "159d6f43597745aa": [
     {
@@ -60,12 +52,12 @@
           "t": "li"
         },
         {
-          "c": "Signez le contrat d'adoption et réglez les frais d'adoption, qui couvrent les vaccinations, la stérilisation et la pose d'une puce électronique.",
+          "c": "Complétez le contrat d'adoption et réglez les frais d'adoption, qui couvrent les vaccinations, la stérilisation et la pose d'une puce électronique.",
           "i": 6,
           "t": "li"
         },
         {
-          "c": "Accueillez votre nouveau membre de la famille chez vous grâce à nos ressources de soutien post-adoption.",
+          "c": "Accueillez votre nouveau membre de la famille chez vous grâce à nos ressources d'accompagnement post-adoption.",
           "i": 7,
           "t": "li"
         }
@@ -74,16 +66,41 @@
       "t": "ol"
     }
   ],
-  "2fe7319b7a1fd52e": [
-    {
-      "i": 1,
-      "k": "_gt_n_1",
-      "v": "n"
-    },
-    " ans"
-  ],
-  "3ab16d9d1ef6f7e8": "Parcourez les animaux disponibles à l’adoption avec des informations sur la race, l’âge, les frais d’adoption et les dates de disponibilité. Internationalisé avec General Translation.",
+  "3ab16d9d1ef6f7e8": "Parcourez les profils des animaux à adopter, avec des informations sur la race, l’âge, les frais d’adoption et les dates de disponibilité. Internationalisé avec General Translation.",
   "45f6a3b008b2d358": "Centre d'adoption d'animaux",
+  "480239b03b65b8f3": {
+    "d": {
+      "b": {
+        "one": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " an"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "other": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " ans"
+          ],
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "p"
+    },
+    "i": 1,
+    "t": "Plural"
+  },
   "68a99738efa4cf51": "Années de service à la communauté",
   "6933d2c648362c4a": "Conditions d'adoption",
   "6da95dec3e7a4e8c": "Poids",
@@ -200,24 +217,49 @@
     "t": "Branch"
   },
   "a4f4d02afd938a3e": {
-    "c": "Il s'agit d'un exemple d'application développée avec General Translation pour illustrer les fonctionnalités d'internationalisation, notamment le formatage des nombres, des devises et des dates selon la locale.",
+    "c": "Voici un exemple d'application développée avec General Translation pour illustrer les fonctionnalités d'internationalisation, notamment le formatage des nombres, des devises et des dates selon la locale.",
     "i": 1,
     "t": "p"
   },
   "b0cbc9acb4698e63": "Couleur",
   "b51a466fd3ff957a": "Disponible à partir de",
+  "b888561f3d80c5bf": {
+    "d": {
+      "b": {
+        "one": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " animal disponible actuellement"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "other": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " animaux de compagnie disponibles actuellement"
+          ],
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "p"
+    },
+    "i": 1,
+    "t": "Plural"
+  },
   "b90e87f4b7125237": "Détails",
   "cb0f27a284385422": "Informations de santé",
   "ceeab41e766ea81c": "Animaux",
   "cf64dec161d1c523": "Animaux adoptés cette année",
-  "d02d6aaa6fd21e6a": [
-    {
-      "i": 1,
-      "k": "_gt_n_1",
-      "v": "n"
-    },
-    " animaux disponibles actuellement"
-  ],
   "d23f5c02a37b4e65": "Centre d’adoption d’animaux | General Translation",
   "d3cac2b8ca994363": [
     {
@@ -228,7 +270,7 @@
     {
       "c": [
         {
-          "c": "Même si vous ne pouvez pas adopter, il existe de nombreuses façons de soutenir notre travail. Vous pouvez faire du bénévolat au refuge, accueillir temporairement un animal, faire des dons de fournitures ou aider à faire connaître les animaux qui cherchent un foyer.",
+          "c": "Même si vous ne pouvez pas adopter, il existe de nombreuses façons de soutenir notre travail. Vous pouvez faire du bénévolat au refuge, accueillir temporairement un animal, faire don de fournitures ou aider à faire connaître les animaux qui cherchent un foyer.",
           "i": 3,
           "t": "p"
         },
@@ -245,7 +287,7 @@
   "d819728f3da4397b": {
     "d": {
       "b": {
-        "Black-and-tan": "Black and tan",
+        "Black-and-tan": "Noir et fauve",
         "Brown-tabby": "Tabby brun",
         "Chocolate": "Chocolat",
         "Golden": "Golden",
@@ -258,13 +300,5 @@
     "t": "Branch"
   },
   "ded282ca64a528d9": "À propos de notre refuge | Centre d’adoption d’animaux",
-  "e7103761289d3c41": "Tempérament",
-  "eb03d99a0a5fe188": [
-    {
-      "i": 1,
-      "k": "_gt_n_1",
-      "v": "n"
-    },
-    " animal disponible actuellement"
-  ]
+  "e7103761289d3c41": "Tempérament"
 }

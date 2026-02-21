@@ -1,4 +1,4 @@
-import { T, Num, Currency, DateTime, Branch, Plural, Var } from "gt-next";
+import { T, Num, Currency, DateTime, Branch, Plural } from "gt-next";
 import Link from "next/link";
 import { pets } from "@/data/pets";
 import Header from "@/components/Header";
@@ -53,19 +53,13 @@ export default function Home() {
             </p>
           </T>
           <p className="text-sm text-neutral-500">
-            <Plural
-              n={availableCount}
-              one={
-                <T>
-                  <Num>{availableCount}</Num> pet currently available
-                </T>
-              }
-              other={
-                <T>
-                  <Num>{availableCount}</Num> pets currently available
-                </T>
-              }
-            />
+            <T>
+              <Plural
+                n={availableCount}
+                one={<><Num>{availableCount}</Num> pet currently available</>}
+                other={<><Num>{availableCount}</Num> pets currently available</>}
+              />
+            </T>
           </p>
         </div>
 
@@ -87,10 +81,10 @@ export default function Home() {
               <div className="flex items-start justify-between mb-3">
                 <div>
                   <h3 className="text-lg font-semibold text-neutral-100">
-                    <Var>{pet.name}</Var>
+                    {pet.name}
                   </h3>
                   <p className="text-sm text-neutral-400">
-                    <Var>{pet.breed}</Var>{" "}
+                    {pet.breed}{" "}
                     <span className="text-neutral-600">·</span>{" "}
                     <SpeciesLabel species={pet.species} />
                   </p>
@@ -104,19 +98,13 @@ export default function Home() {
                     <T>Age</T>
                   </span>
                   <span className="text-neutral-200">
-                    <Plural
-                      n={pet.age}
-                      one={
-                        <T>
-                          <Num>{pet.age}</Num> year
-                        </T>
-                      }
-                      other={
-                        <T>
-                          <Num>{pet.age}</Num> years
-                        </T>
-                      }
-                    />
+                    <T>
+                      <Plural
+                        n={pet.age}
+                        one={<><Num>{pet.age}</Num> year</>}
+                        other={<><Num>{pet.age}</Num> years</>}
+                      />
+                    </T>
                   </span>
                 </div>
                 <div className="flex flex-col">

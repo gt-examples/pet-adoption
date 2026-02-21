@@ -1,25 +1,25 @@
 {
-  "06a1e80290d65b2b": "Conoce nuestra misión, el proceso de adopción y cómo puedes ayudarnos a darle a una mascota un hogar lleno de cariño.",
+  "06a1e80290d65b2b": "Conoce nuestra misión, el proceso de adopción y cómo puedes ayudar a darle a una mascota un hogar lleno de cariño.",
   "13f5cbc6408018a2": [
     {
-      "c": "Horario del Refugio",
+      "c": "Horario del refugio",
       "i": 1,
       "t": "h3"
     },
     {
       "c": [
         {
-          "c": "Lunes a viernes: 10:00 AM a 6:00 PM",
+          "c": "Lunes a viernes: 10:00 a. m. a 6:00 p. m.",
           "i": 3,
           "t": "p"
         },
         {
-          "c": "Sábado y domingo: 10:00 AM a 4:00 PM",
+          "c": "Sábado y domingo: 10:00 a. m. a 4:00 p. m.",
           "i": 4,
           "t": "p"
         },
         {
-          "c": "Cerrado en días festivos importantes. Se aceptan visitas sin cita previa, pero se recomienda hacer una cita para las sesiones de presentación.",
+          "c": "Cerrado los días festivos principales. Se aceptan visitas sin cita previa, pero se recomienda hacer una cita para las sesiones de presentación.",
           "i": 5,
           "t": "p"
         }
@@ -27,14 +27,6 @@
       "i": 2,
       "t": "div"
     }
-  ],
-  "14f84ca4f7ec20e4": [
-    {
-      "i": 1,
-      "k": "_gt_n_1",
-      "v": "n"
-    },
-    " año"
   ],
   "159d6f43597745aa": [
     {
@@ -74,16 +66,41 @@
       "t": "ol"
     }
   ],
-  "2fe7319b7a1fd52e": [
-    {
-      "i": 1,
-      "k": "_gt_n_1",
-      "v": "n"
-    },
-    " años"
-  ],
-  "3ab16d9d1ef6f7e8": "Explora mascotas disponibles para adopción, con información sobre raza, edad, tarifas de adopción y fechas de disponibilidad. Internacionalizado con General Translation.",
+  "3ab16d9d1ef6f7e8": "Explora las mascotas disponibles para adopción con información sobre raza, edad, tarifas de adopción y fechas de disponibilidad. Internacionalizado con General Translation.",
   "45f6a3b008b2d358": "Centro de Adopción de Mascotas",
+  "480239b03b65b8f3": {
+    "d": {
+      "b": {
+        "one": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " año"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "other": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " años"
+          ],
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "p"
+    },
+    "i": 1,
+    "t": "Plural"
+  },
   "68a99738efa4cf51": "Años al servicio de la comunidad",
   "6933d2c648362c4a": "Requisitos de adopción",
   "6da95dec3e7a4e8c": "Peso",
@@ -132,7 +149,7 @@
       "t": "h2"
     },
     {
-      "c": "Somos una organización sin fines de lucro dedicada al rescate de animales y a encontrar hogares amorosos para mascotas abandonadas o entregadas por sus dueños. Cada animal bajo nuestro cuidado recibe atención veterinaria, socialización y paciencia hasta que llegue la familia adecuada.",
+      "c": "Somos una organización sin fines de lucro dedicada al rescate de animales y a encontrar hogares amorosos para mascotas abandonadas. Cada animal bajo nuestro cuidado recibe atención veterinaria, socialización y paciencia hasta que llegue la familia adecuada.",
       "i": 2,
       "t": "p"
     }
@@ -206,19 +223,44 @@
   },
   "b0cbc9acb4698e63": "Color",
   "b51a466fd3ff957a": "Disponible desde",
+  "b888561f3d80c5bf": {
+    "d": {
+      "b": {
+        "one": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " mascota disponible actualmente"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "other": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " mascotas disponibles actualmente"
+          ],
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "p"
+    },
+    "i": 1,
+    "t": "Plural"
+  },
   "b90e87f4b7125237": "Detalles",
   "cb0f27a284385422": "Información de salud",
   "ceeab41e766ea81c": "Mascotas",
   "cf64dec161d1c523": "Mascotas adoptadas este año",
-  "d02d6aaa6fd21e6a": [
-    {
-      "i": 1,
-      "k": "_gt_n_1",
-      "v": "n"
-    },
-    " mascotas disponibles actualmente"
-  ],
-  "d23f5c02a37b4e65": "Centro de adopción de mascotas | General Translation",
+  "d23f5c02a37b4e65": "Centro de Adopción de Mascotas | General Translation",
   "d3cac2b8ca994363": [
     {
       "c": "Cómo Puedes Ayudar",
@@ -257,14 +299,6 @@
     "i": 1,
     "t": "Branch"
   },
-  "ded282ca64a528d9": "Sobre nuestro refugio | Centro de adopción de mascotas",
-  "e7103761289d3c41": "Temperamento",
-  "eb03d99a0a5fe188": [
-    {
-      "i": 1,
-      "k": "_gt_n_1",
-      "v": "n"
-    },
-    " mascota disponible actualmente"
-  ]
+  "ded282ca64a528d9": "Sobre nuestro refugio | Centro de Adopción de Mascotas",
+  "e7103761289d3c41": "Temperamento"
 }
