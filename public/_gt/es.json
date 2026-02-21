@@ -1,5 +1,6 @@
 {
   "06a1e80290d65b2b": "Conoce nuestra misión, el proceso de adopción y cómo puedes ayudar a darle a una mascota un hogar lleno de cariño.",
+  "13c6da46f8d3acbe": "Explora mascotas disponibles para adopción con información sobre raza, edad, tarifas de adopción y fechas de disponibilidad.",
   "13f5cbc6408018a2": [
     {
       "c": "Horario del refugio",
@@ -66,6 +67,21 @@
       "t": "ol"
     }
   ],
+  "2996041841cbedbe": {
+    "d": {
+      "b": {
+        "bruno": "Castrado, al día con todas las vacunas, con microchip. Evaluación de cadera completada con buenos resultados. Tomando suplemento articular.",
+        "cleo": "Esterilizada, al día con todas las vacunas, con microchip. FIV/FeLV negativa. Peso saludable para su edad.",
+        "luna": "Esterilizada, al día con todas las vacunas, con microchip. Sin problemas de salud conocidos. Limpieza dental reciente realizada.",
+        "mochi": "Esterilizada, al día con todas las vacunas, con microchip. Revisión anual completada. FIV/FeLV negativo.",
+        "rex": "Castrado, al día con todas las vacunas, con microchip. Negativo a la dirofilariasis. Con pruebas de alergia realizadas; alergias estacionales leves controladas con medicación.",
+        "whiskers": "Castrado, al día con todas las vacunas, con microchip. Negativo a FIV/FeLV. Revisión cardíaca completada con resultados normales. Requiere cepillado regular por su pelaje largo."
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
   "3ab16d9d1ef6f7e8": "Explora las mascotas disponibles para adopción con información sobre raza, edad, tarifas de adopción y fechas de disponibilidad. Internacionalizado con General Translation.",
   "45f6a3b008b2d358": "Centro de Adopción de Mascotas",
   "480239b03b65b8f3": {
@@ -179,6 +195,21 @@
       "t": "p"
     }
   ],
+  "93519efd6efb0e36": {
+    "d": {
+      "b": {
+        "bruno": "Se requiere dueño de perro con experiencia. Se prefiere hogar con jardín amplio y cercado. No recomendado para hogares con niños pequeños.",
+        "cleo": "Se requiere hogar solo para interior. Necesita juego interactivo diario. Se lleva bien con otros gatos sociables.",
+        "luna": "Requiere una casa con jardín cercado. Más adecuado para una familia activa. Se prefiere experiencia previa con perros.",
+        "mochi": "Se requiere hogar exclusivamente interior. Apto para apartamentos. Ideal como mascota única o junto a otro gato tranquilo.",
+        "rex": "Se prefiere familia activa. Se recomienda patio cercado. Se lleva bien con otros perros y niños.",
+        "whiskers": "Se requiere hogar solo en interiores. Necesita aseo regular. Se lleva bien con niños y otras mascotas. Se prefiere un hogar tranquilo."
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
   "9402349b1b04b678": "Voluntarios activos",
   "97d971f0fb2f0dc4": [
     {
@@ -199,6 +230,21 @@
         "adopted": "Adoptado",
         "available": "Disponible",
         "pending": "Pendiente"
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
+  "a029b4ba1c16fdb9": {
+    "d": {
+      "b": {
+        "bruno": "Bruno es un Pastor Alemán bien entrenado con excelentes habilidades de obediencia. Es leal y protector, lo que lo convierte en un gran compañero para dueños de perros con experiencia. Disfruta de actividades estructuradas y desafíos mentales.",
+        "cleo": "Cleo es una gatita siamesa llena de vida a la que le encanta maullar y jugar. Es increíblemente sociable y disfruta mucho de la interacción humana. Le gustan los juguetes de inteligencia y te seguirá por toda la casa.",
+        "luna": "Luna es una Golden Retriever alegre que adora los paseos largos, nadar y jugar a buscar la pelota. Se lleva de maravilla con niños y otros perros. Fue rescatada de una familia que ya no podía cuidarla y ha prosperado en nuestro refugio.",
+        "mochi": "Mochi es una Scottish Fold dulce y tranquila que adora acurrucarse en los regazos y observar pájaros desde la ventana. Es una compañera ideal para vivir en apartamento y se adapta bien como la única mascota del hogar.",
+        "rex": "Rex es un adorable Labrador Chocolate al que nunca le ha faltado un amigo. Le encanta el agua, buscar pelotas de tenis y que le rasquen la barriga. Es fantástico con niños de todas las edades y sería un excelente perro familiar.",
+        "whiskers": "Whiskers es un majestuoso Maine Coon con una gran personalidad a la altura de su tamaño. A pesar de su imponente apariencia, es increíblemente gentil y paciente. Le encanta que lo cepillen y se sentará felizmente a tu lado durante horas."
       },
       "t": "b"
     },

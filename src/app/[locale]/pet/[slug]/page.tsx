@@ -1,5 +1,5 @@
 import { T, Num, Currency, DateTime, Branch, Plural } from "gt-next";
-import { getGT, tx } from "gt-next/server";
+import { getGT } from "gt-next/server";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -20,7 +20,9 @@ export async function generateMetadata({
   if (!pet) return {};
   const gt = await getGT();
   const title = gt("Pet Adoption Center | General Translation");
-  const description = await tx(pet.description);
+  const description = gt(
+    "Browse adoptable pets with breed info, age, adoption fees, and availability dates."
+  );
   return {
     title: `${pet.name} - ${title}`,
     description,
@@ -34,7 +36,13 @@ export async function generateMetadata({
     twitter: { card: "summary", title: `${pet.name} - ${title}`, description },
     alternates: {
       canonical: `https://pet-adoption.generaltranslation.dev/pet/${slug}`,
-      languages: { en: `/en/pet/${slug}`, es: `/es/pet/${slug}`, fr: `/fr/pet/${slug}`, ja: `/ja/pet/${slug}`, zh: `/zh/pet/${slug}` },
+      languages: {
+        en: `/en/pet/${slug}`,
+        es: `/es/pet/${slug}`,
+        fr: `/fr/pet/${slug}`,
+        ja: `/ja/pet/${slug}`,
+        zh: `/zh/pet/${slug}`,
+      },
     },
   };
 }
@@ -118,6 +126,56 @@ function ColorLabel({ color }: { color: string }) {
   );
 }
 
+type PetSlug = "luna" | "mochi" | "bruno" | "cleo" | "rex" | "whiskers";
+
+function PetDescription({ slug }: { slug: string }) {
+  return (
+    <T>
+      <Branch
+        branch={slug as PetSlug}
+        luna="Luna is a joyful Golden Retriever who loves long walks, swimming, and playing fetch. She gets along wonderfully with children and other dogs. She was rescued from a family that could no longer care for her and has been thriving in our shelter."
+        mochi="Mochi is a sweet and quiet Scottish Fold who loves curling up on laps and watching birds from the window. She is an ideal companion for apartment living and does well as the only pet in the household."
+        bruno="Bruno is a well-trained German Shepherd with excellent obedience skills. He is loyal and protective, making him a great companion for experienced dog owners. He enjoys structured activities and mental challenges."
+        cleo="Cleo is a lively Siamese kitten who loves to talk and play. She is incredibly social and thrives on human interaction. She enjoys puzzle toys and will follow you around the house."
+        rex="Rex is a lovable Chocolate Lab who has never met a stranger. He adores water, fetching tennis balls, and belly rubs. He is fantastic with children of all ages and would make an excellent family dog."
+        whiskers="Whiskers is a majestic Maine Coon with a big personality to match his size. Despite his imposing appearance, he is incredibly gentle and patient. He loves being brushed and will happily sit beside you for hours."
+      />
+    </T>
+  );
+}
+
+function PetHealthInfo({ slug }: { slug: string }) {
+  return (
+    <T>
+      <Branch
+        branch={slug as PetSlug}
+        luna="Spayed, up to date on all vaccinations, microchipped. No known health issues. Recent dental cleaning performed."
+        mochi="Spayed, up to date on all vaccinations, microchipped. Annual checkup completed. FIV/FeLV negative."
+        bruno="Neutered, up to date on all vaccinations, microchipped. Hip evaluation completed with good results. On joint supplement."
+        cleo="Spayed, up to date on all vaccinations, microchipped. FIV/FeLV negative. Healthy weight for her age."
+        rex="Neutered, up to date on all vaccinations, microchipped. Heartworm negative. Allergy-tested, mild seasonal allergies managed with medication."
+        whiskers="Neutered, up to date on all vaccinations, microchipped. FIV/FeLV negative. Heart screening completed with normal results. Regular grooming needed for his long coat."
+      />
+    </T>
+  );
+}
+
+function PetAdoptionRequirements({ slug }: { slug: string }) {
+  return (
+    <T>
+      <Branch
+        branch={slug as PetSlug}
+        luna="Requires a home with a fenced yard. Best suited for an active family. Previous dog ownership experience preferred."
+        mochi="Indoor-only home required. Suitable for apartments. Best as the sole pet or with another calm cat."
+        bruno="Experienced dog owner required. Home with a large fenced yard preferred. Not recommended for homes with small children."
+        cleo="Indoor-only home required. Needs daily interactive playtime. Does well with other sociable cats."
+        rex="Active family preferred. Fenced yard recommended. Gets along well with other dogs and children."
+        whiskers="Indoor-only home required. Needs regular grooming. Does well with children and other pets. Calm household preferred."
+      />
+    </T>
+  );
+}
+
 export default async function PetProfilePage({
   params,
 }: {
@@ -126,10 +184,6 @@ export default async function PetProfilePage({
   const { slug } = await params;
   const pet = pets.find((p) => p.slug === slug);
   if (!pet) notFound();
-
-  const translatedDescription = await tx(pet.description);
-  const translatedHealth = await tx(pet.healthInfo);
-  const translatedRequirements = await tx(pet.adoptionRequirements);
 
   return (
     <div className="min-h-screen bg-neutral-950 font-sans text-neutral-200">
@@ -158,7 +212,7 @@ export default async function PetProfilePage({
         </div>
 
         <p className="text-base text-neutral-300 leading-relaxed mb-8">
-          {translatedDescription}
+          <PetDescription slug={pet.slug} />
         </p>
 
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
@@ -264,13 +318,13 @@ export default async function PetProfilePage({
 
           <Section title={<T>Health Information</T>}>
             <p className="text-sm text-neutral-300 leading-relaxed">
-              {translatedHealth}
+              <PetHealthInfo slug={pet.slug} />
             </p>
           </Section>
 
           <Section title={<T>Adoption Requirements</T>}>
             <p className="text-sm text-neutral-300 leading-relaxed">
-              {translatedRequirements}
+              <PetAdoptionRequirements slug={pet.slug} />
             </p>
           </Section>
 

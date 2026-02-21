@@ -18,7 +18,6 @@ This example app simulates a pet adoption center where users can browse adoptabl
 - `<Branch>` — Conditional rendering by locale
 - `<LocaleSelector>` — Language picker
 - `getGT` — Server-side string translations
-- `tx` — Server-side runtime translation for dynamic content
 - `loadTranslations` — Local translation storage
 
 ## Getting Started

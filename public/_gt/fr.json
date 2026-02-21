@@ -1,5 +1,6 @@
 {
   "06a1e80290d65b2b": "Découvrez notre mission, notre processus d’adoption et comment vous pouvez aider un animal à trouver un foyer aimant.",
+  "13c6da46f8d3acbe": "Parcourez les animaux disponibles à l’adoption et consultez les informations sur la race, l’âge, les frais d’adoption et les dates de disponibilité.",
   "13f5cbc6408018a2": [
     {
       "c": "Heures d'ouverture du refuge",
@@ -66,6 +67,21 @@
       "t": "ol"
     }
   ],
+  "2996041841cbedbe": {
+    "d": {
+      "b": {
+        "bruno": "Castré, à jour de toutes les vaccinations, pucé. Évaluation des hanches complétée avec de bons résultats. Sous supplément articulaire.",
+        "cleo": "Stérilisée, à jour de tous ses vaccins, pucée. FIV/FeLV négatif. Poids santé pour son âge.",
+        "luna": "Stérilisée, à jour de tous les vaccins, pucée. Aucun problème de santé connu. Détartrage récent effectué.",
+        "mochi": "Stérilisée, à jour de toutes les vaccinations, pucée. Bilan annuel effectué. FIV/FeLV négatif.",
+        "rex": "Castré, à jour de toutes les vaccinations, micropucé. Négatif aux vers du cœur. Test d'allergies effectué, allergies saisonnières légères gérées par médication.",
+        "whiskers": "Castré, à jour de toutes ses vaccinations, micropucé. FIV/FeLV négatif. Bilan cardiaque effectué avec des résultats normaux. Toilettage régulier nécessaire pour son pelage long."
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
   "3ab16d9d1ef6f7e8": "Parcourez les profils des animaux à adopter, avec des informations sur la race, l’âge, les frais d’adoption et les dates de disponibilité. Internationalisé avec General Translation.",
   "45f6a3b008b2d358": "Centre d'adoption d'animaux",
   "480239b03b65b8f3": {
@@ -179,6 +195,21 @@
       "t": "p"
     }
   ],
+  "93519efd6efb0e36": {
+    "d": {
+      "b": {
+        "bruno": "Propriétaire de chien expérimenté requis. Maison avec un grand jardin clôturé de préférence. Déconseillé aux foyers avec de jeunes enfants.",
+        "cleo": "Foyer intérieur uniquement requis. Nécessite des séances de jeu interactif quotidiennes. S'entend bien avec d'autres chats sociables.",
+        "luna": "Nécessite un logement avec une cour clôturée. Convient mieux à une famille active. Une expérience préalable avec les chiens est préférable.",
+        "mochi": "Logement intérieur uniquement requis. Convient aux appartements. Idéal comme seul animal ou avec un autre chat calme.",
+        "rex": "Famille active de préférence. Jardin clôturé recommandé. S'entend bien avec les autres chiens et les enfants.",
+        "whiskers": "Foyer intérieur uniquement requis. Nécessite un toilettage régulier. S'entend bien avec les enfants et les autres animaux. Foyer calme de préférence."
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
   "9402349b1b04b678": "Bénévoles actifs",
   "97d971f0fb2f0dc4": [
     {
@@ -199,6 +230,21 @@
         "adopted": "Adopté",
         "available": "Disponible",
         "pending": "En attente"
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
+  "a029b4ba1c16fdb9": {
+    "d": {
+      "b": {
+        "bruno": "Bruno est un Berger Allemand bien dressé, doté d'excellentes aptitudes à l'obéissance. Il est loyal et protecteur, ce qui en fait un excellent compagnon pour les propriétaires de chiens expérimentés. Il apprécie les activités structurées et les défis intellectuels.",
+        "cleo": "Cleo est une chatte siamoise pleine de vie qui adore bavarder et jouer. Elle est incroyablement sociable et s'épanouit au contact des humains. Elle aime les jouets d'éveil et vous suivra partout dans la maison.",
+        "luna": "Luna est une joyeuse Golden Retriever qui adore les longues promenades, la natation et jouer à rapporter la balle. Elle s'entend à merveille avec les enfants et les autres chiens. Elle a été recueillie auprès d'une famille qui ne pouvait plus s'occuper d'elle et s'épanouit depuis dans notre refuge.",
+        "mochi": "Mochi est une Scottish Fold douce et calme qui adore se blottir sur les genoux et observer les oiseaux par la fenêtre. Elle est une compagne idéale pour la vie en appartement et s'épanouit en tant qu'animal unique dans le foyer.",
+        "rex": "Rex est un adorable Labrador chocolat qui se lie d'amitié avec tout le monde. Il adore l'eau, rapporter des balles de tennis et les câlins sur le ventre. Il est fantastique avec les enfants de tous âges et ferait un excellent chien de famille.",
+        "whiskers": "Whiskers est un magnifique Maine Coon dont la personnalité est à la hauteur de sa taille. Malgré son apparence imposante, il est d'une douceur et d'une patience remarquables. Il adore être brossé et restera volontiers assis à vos côtés pendant des heures."
       },
       "t": "b"
     },
